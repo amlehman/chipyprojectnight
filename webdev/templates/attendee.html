@@ -1,0 +1,22 @@
+<!-- extend from base layout -->
+
+
+  <h1>Super Chipy Project Night People</h1>
+  <form action="" method="post" name="login">
+{{ form.csrf_token }}
+
+  {% for member in members %}
+
+  <p>{{ member.name }}</p>
+  {% if member.photo %}
+  <img src="{{ member.photo.thumb_link }}">
+  {% endif %}
+       <p>
+          Please enter your Project Type:<br>
+          {{ form.project_type }}<br>
+      </p>
+      <p>{{ form.lines_of_code }} Lines of Code</p>
+{% endfor %}
+
+      <p><input type="submit" value="Submit"></p>
+  </form>
