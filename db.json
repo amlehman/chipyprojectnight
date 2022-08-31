@@ -1,9 +1,9 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "reservations": [
+    {name: "Ed Luna", start_time: "2022-08-31T17:00:00.000Z", end_time: "2022-08-31T19:00:00.000Z", id: "80535fd1-48a0-41a3-b7b1-5ebe7fff66ed"},
+    {name: "Kristine Hester", start_time: "2022-08-31T15:30:00.000Z", end_time: "2022-08-31T18:00:00.000Z", id: "1ead2fc6-58e1-4098-b1e2-503653824653"},
+    {name: "Dustin Drake", start_time: "2022-08-31T08:00:00.000Z", end_time: "2022-08-31T09:00:00.000Z", id: "9125c099-3aeb-46d1-8a56-c6fb01c3b1dd"},
+    {name: "Bethany Benjamin", start_time: "2022-08-31T12:15:00.000Z", end_time: "2022-08-31T13:15:00.000Z",id: "4662b9ed-b4f4-4e81-aeb4-50be387b7128"},
+  
+  ] 
 }
